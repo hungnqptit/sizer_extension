@@ -2,21 +2,21 @@ part of sizer;
 
 class SizerUtil {
   /// Device's BoxConstraints
-  static BoxConstraints boxConstraints;
+  static late BoxConstraints boxConstraints;
 
   /// Device's Orientation
-  static Orientation orientation;
+  static late Orientation orientation;
 
   /// Type of Device
   ///
   /// This can either be mobile or tablet
-  static DeviceType deviceType;
+  static late DeviceType deviceType;
 
   /// Device's Height
-  static double height;
+  static late double height;
 
   /// Device's Width
-  static double width;
+  static late double width;
 
   /// Sets the Screen's size and Device's Orientation,
   /// BoxConstraints, Height, and Width
